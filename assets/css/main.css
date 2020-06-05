@@ -1155,7 +1155,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 0.325s ease-in-out, -webkit-filter 0.325s ease-in-out;
 			-ms-transition: -ms-transform 0.325s ease-in-out, -ms-filter 0.325s ease-in-out;
 			transition: transform 0.325s ease-in-out, filter 0.325s ease-in-out;
-			background-image: url("../../images/bg.jpg");
+			background-image: url("../../images/background2.jpg");
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
@@ -1622,12 +1622,14 @@ input, select, textarea {
     /* Start collabsible */
 				.wrap-collabsible {
 		  margin-bottom: 1.2rem 0;
+			padding-bottom: 5px;
 		}
 
 		input[type='checkbox'] {
 		  display: none;
 			opacity: 0;
 			left: -9999px
+			padding: 1rem;
 		}
 
 		.lbl-toggle {
@@ -1636,7 +1638,6 @@ input, select, textarea {
 		  font-weight: bold;
 		  font-family: monospace;
 		  font-size: 1.2rem;
-		  text-transform: uppercase;
 		  text-align: center;
 
 		  padding: 1rem;
@@ -1677,6 +1678,7 @@ input, select, textarea {
 		  max-height: 0px;
 		  overflow: hidden;
 		  transition: max-height .25s ease-in-out;
+
 		}
 
 		.toggle:checked + .lbl-toggle + .collapsible-content {
